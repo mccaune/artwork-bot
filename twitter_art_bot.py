@@ -128,7 +128,8 @@ def make_tweet(artwork_data):
     logging.info(f"Composed tweet: {tweet}")
 
     # Return the composed tweet
-    print(tweet)
+    print(f'teksts: {tweet} \n')
+    print(f"Tweet successfully posted at {time.ctime()}!\n")
     return tweet
 
 def make_rijksmuseum_tweet(artwork_data):
@@ -141,7 +142,8 @@ def make_rijksmuseum_tweet(artwork_data):
         logging.warning("Tweet was truncated to 280 characters")
 
     logging.info(f"Composed tweet: {tweet}")
-    print(tweet)
+    print(f'teksts: {tweet} \n')
+    print(f"Tweet successfully posted at {time.ctime()}!\n")
     return tweet
 
 
